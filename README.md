@@ -78,10 +78,13 @@ This is a full-featured backend system for an Event Management platform built wi
    spring.datasource.username=root
    spring.datasource.password=your_password
    spring.jpa.hibernate.ddl-auto=update
-4. 
+4. **Run the Application**
+   - Open in IntelliJ or Eclipse
+   - Run `EventManagementSystemApplication.java`
+   - App will be live at `http://localhost:8080/` 
    
    
- 4.Run the Application
+ 4.
    -Open in IntelliJ or Eclipse
    -Run EventManagementSystemApplication.java
    -App will be live at http://localhost:8080/
