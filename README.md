@@ -73,13 +73,14 @@ This is a full-featured backend system for an Event Management platform built wi
    ```bash
    CREATE DATABASE event_management;
 3. **Configure application.properties**
-
-5. **Configure application.properties**
    ```bash
    spring.datasource.url=jdbc:mysql://localhost:3306/event_management
    spring.datasource.username=root
    spring.datasource.password=your_password
    spring.jpa.hibernate.ddl-auto=update
+4. 
+   
+   
  4.Run the Application
    -Open in IntelliJ or Eclipse
    -Run EventManagementSystemApplication.java
