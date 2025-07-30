@@ -70,25 +70,22 @@ This is a full-featured backend system for an Event Management platform built wi
    git clone https://github.com/your-username/event-management-backend.git
 
 2. **Set up MySQL Database**
-CREATE DATABASE event_management;
+   ```bash
+   CREATE DATABASE event_management;
 
 3. **Configure application.properties**
-spring.datasource.url=jdbc:mysql://localhost:3306/event_management
-spring.datasource.username=root
-spring.datasource.password=your_password
-spring.jpa.hibernate.ddl-auto=update
-Run the Application
+   ```bash
+   spring.datasource.url=jdbc:mysql://localhost:3306/event_management
+   spring.datasource.username=root
+   spring.datasource.password=your_password
+   spring.jpa.hibernate.ddl-auto=update
+ 4.Run the Application
+   -Open in IntelliJ or Eclipse
+   -Run EventManagementSystemApplication.java
+   -App will be live at http://localhost:8080/
 
-Open in IntelliJ or Eclipse
-
-Run EventManagementSystemApplication.java
-
-App will be live at http://localhost:8080/
-
-Access Frontend Pages
-
-http://localhost:8080/login
-
-http://localhost:8080/register
-
-http://localhost:8080/events (after login)
+ 5.Access Frontend Pages
+ ```bash
+   http://localhost:8080/login
+   http://localhost:8080/register
+   http://localhost:8080/events (after login)
