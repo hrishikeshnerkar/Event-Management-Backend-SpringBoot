@@ -87,3 +87,7 @@ This is a full-featured backend system for an Event Management platform built wi
    http://localhost:8080/login
    http://localhost:8080/register
    http://localhost:8080/events (after login)
+
+---
+
+Feel free to fork this repo or use it as a reference for your own Spring MVC setup!
