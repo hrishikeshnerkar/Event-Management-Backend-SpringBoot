@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5" id="event-details"></div>
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const eventId = urlParams.get('id');
+
+    fetch(`/api/events/${eventId}`)
+        .then(res => res.json())
+        .then(event => {
+            document.getElementById('event-details').innerHTML = `
+                <h2>${event.title}</h2>
+                <p>${event.description}</p>
+                <p><strong>Date:</strong> ${event.date}</p>
+                <p><strong>Location:</strong> ${event.location}</p>
+                <a href="/feedback.html?eventId=${event.id}" class="btn btn-secondary">Give Feedback</a>
+            `;
+        });
+</script>
+</body>
+</html>
