@@ -81,15 +81,8 @@ This is a full-featured backend system for an Event Management platform built wi
 4. **Run the Application**
    - Open in IntelliJ or Eclipse
    - Run `EventManagementSystemApplication.java`
-   - App will be live at `http://localhost:8080/` 
-   
-   
- 4.
-   -Open in IntelliJ or Eclipse
-   -Run EventManagementSystemApplication.java
-   -App will be live at http://localhost:8080/
-
- 5.Access Frontend Pages
+   - App will be live at `http://localhost:8080/`
+5. **Access Frontend Pages**
  ```bash
    http://localhost:8080/login
    http://localhost:8080/register
