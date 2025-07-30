@@ -72,8 +72,9 @@ This is a full-featured backend system for an Event Management platform built wi
 2. **Set up MySQL Database**
    ```bash
    CREATE DATABASE event_management;
-
 3. **Configure application.properties**
+
+5. **Configure application.properties**
    ```bash
    spring.datasource.url=jdbc:mysql://localhost:3306/event_management
    spring.datasource.username=root
